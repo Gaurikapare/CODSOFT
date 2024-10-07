@@ -3,8 +3,9 @@
 "This repository features projects I developed during my Python programming internship at CodSoft.
 The projects include a basic calculator, a password generator, and a rock-paper-scissors game, each demonstrating various core aspects of Python programming, such as handling user input, utilizing conditionals and loops, and incorporating Python libraries."
 
+### Projects
 
-### Basic Calculator
+### 1.Basic Calculator
 A command-line calculator designed to perform essential arithmetic operations interactively.
 
 #### Features
@@ -43,7 +44,7 @@ while True:
            print("Invalid operator")
 ```
 
-### Password Generator
+### 2.Password Generator
 A command-line tool designed to generate secure, customizable passwords interactively.
 
 ### Features
@@ -56,6 +57,7 @@ A command-line tool designed to generate secure, customizable passwords interact
 ### Usage
 Run the script, then follow the on-screen prompts to select the desired password length and character preferences (e.g., include/exclude numbers or symbols). Type exit at any point to quit the password generator.
 
+```python
 
 
 
