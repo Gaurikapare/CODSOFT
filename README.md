@@ -95,7 +95,7 @@ if __name__ == "__main__": # this condition checks if the scrift is being run di
     print("your password is:")
     print("".join(s[0:plen]))
 
-     ```
+ ```
 
 ### 3.Rock, Paper, Scissors Game
 A command-line game where users compete against the computer by choosing between "rock," "paper," or "scissors."
@@ -112,46 +112,7 @@ A command-line game where users compete against the computer by choosing between
 Run the script, then enter your choice (`rock`, `paper`, or `scissors`) when prompted. The computer will also make a random choice, and the result will be displayed. To continue playing, answer “yes” when prompted; type `exit` at any time to quit the game.
 
 ```python
-import random
 
-def rock_paper_scissors_game():
-    print("\nWELCOME TO THE ROCK, PAPER, SCISSORS GAME")
-    print("Choices: rock, paper, or scissors")
-    print("Type 'exit' to quit the game at any time.\n")
-
-    choices = ["rock", "paper", "scissors"]
-    rounds_played = 0
-
-    while True:
-        user_choice = input("Enter your choice: ").lower()
-        if user_choice == "exit":
-            print("Game ended. Thanks for playing!")
-            break
-        elif user_choice not in choices:
-            print("Invalid choice! Please choose 'rock', 'paper', or 'scissors'.\n")
-            continue
-
-        computer_choice = random.choice(choices)
-        rounds_played += 1
-
-        print(f"Computer chose: {computer_choice}")
-
-        if user_choice == computer_choice:
-            print("It's a tie!")
-        elif (user_choice == "rock" and computer_choice == "scissors") or \
-             (user_choice == "scissors" and computer_choice == "paper") or \
-             (user_choice == "paper" and computer_choice == "rock"):
-            print("Congratulations, you won!")
-        else:
-            print("You lost this round.")
-
-        play_again = input("Do you want to play again? (yes to continue, or 'exit' to quit): ").lower()
-        if play_again != "yes":
-            print(f"Game over. You played {rounds_played} round(s).")
-            break
-
-# Run the game
-rock_paper_scissors_game()
 
 
 ```
