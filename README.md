@@ -42,3 +42,22 @@ while True:
      else:
            print("Invalid operator")
 ```
+
+### Password Generator
+A command-line tool designed to generate secure, customizable passwords interactively.
+
+### Features
+-Generates random passwords with customizable lengths and complexity.
+-Options for including/excluding uppercase letters, lowercase letters, numbers, and special characters.
+-Ensures password security by using a strong randomization algorithm.
+-Allows users to generate multiple passwords in one session.
+-Prompts the user for preferences each time a new password is generated.
+-Users can type exit at any time to quit the program.
+### Usage
+Run the script, then follow the on-screen prompts to select the desired password length and character preferences (e.g., include/exclude numbers or symbols). Type exit at any point to quit the password generator.
+
+
+
+
+
+
